@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="dependencies">
+  
+<import file="./build-common.xml"/>
+ 
+<target name="PROD" depends="1.1.1.0"/>
+
+
+<!-- 1.0.0.0 -->
+
+<target name="1.1.1.0" >
+    <ant dir="../../1.1.0.0/1.1.1.0-Initial-commit" target="update"/>
+</target>
+
+
+
+</project>
